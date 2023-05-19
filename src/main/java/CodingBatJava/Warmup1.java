@@ -1,6 +1,7 @@
 package CodingBatJava;
 
 public class Warmup1 {
+
     public boolean sleepIn(boolean weekday, boolean vacation) {
         if (!weekday || vacation) {//I figured if it's not! a weekday or|| vacation
             return true;           // then its true or defaults to false. Thankfully I remembered
